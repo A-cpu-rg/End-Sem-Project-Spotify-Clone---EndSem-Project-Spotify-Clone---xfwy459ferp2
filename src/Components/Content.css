@@ -1,0 +1,131 @@
+.box-container {
+    background-color: black;
+    color: black;
+    padding-top: 10px;
+    overflow: hidden;
+  }
+
+  .header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .head-logo{
+    height: 2.5rem;
+  }
+
+  .header-login{
+    width: 6%;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 22px;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+  }
+
+.header-signup{
+    width: 6%;
+    align-items: center;
+    padding-left: 1rem;
+    border-radius: 22px;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    color: grey;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: black;
+}
+.trending {
+    margin-top: 3rem;
+    background-color: black;
+    overflow: hidden;
+    overflow-x: auto;
+    margin: 3rem;
+
+}
+  
+  .section-title {
+    margin: 10px;
+    margin-left: 3rem;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    margin-bottom: -10px;
+  }
+  
+  .scroll-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto;
+  }
+  
+  .scroll-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .songs {
+    display: flex;
+    background-color: black;
+  }
+  
+  .song-item {
+    margin: 10px;
+    cursor: pointer;
+    height: 15rem;
+    width: 12rem;
+  }
+  
+  .song-item img {
+    width: 180px;
+    height: 180px;
+    border-radius: 5%;
+    object-fit: cover;
+  }
+  
+  .song-item h2 {
+    margin: 5px 0px;
+    font-size: 18px;
+  }
+  
+  .song-item span {
+    font-size: 14px;
+  }
+  
+
+  .item-container {
+    width: 100%; 
+  }
+  
+  .item-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .item-artists {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .item-artist {
+    display: inline;
+  }
+
+ 
+  
